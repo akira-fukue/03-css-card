@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #081B33;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 40%;
+  height: 40%;
+  border-radius: 21px;
+  background-color: #2F4562;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.card span {
+  font-size: 30px;
+  transition: font-size 1s ease;
+  font-family: sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 10px 18px 0 #fff;
+  border-color: #081B33;
+}
+
+.card:hover span {
+  font-size: 60px;
+  color: #fff;
+}
